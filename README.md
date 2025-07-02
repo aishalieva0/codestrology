@@ -1,8 +1,9 @@
 # 🔮 Codestrology
 
+![Codestrology](https://your-deployment-url.com/zodiac?sign=leo)
+
 > Your developer zodiac, rendered in SVG — for your GitHub profile, website, or anywhere you want cosmic dev vibes.
 
-![Codestrology](https://your-deployment-url.com/zodiac?sign=leo)
 
 ---
 
@@ -29,24 +30,14 @@ Pick your sign:
 `libra`, `scorpio`, `sagittarius`, `capricorn`, `aquarius`, `pisces`
 
 ### 👉 Step 2: Choose supported themes: light, dark (default)
-![Leo Dev](https://your-deployment-url.com/zodiac?sign=leo&theme=light)
-![Virgo Dev](https://your-deployment-url.com/zodiac?sign=virgo&theme=dark)
 
-### 🔗 Markdown for GitHub README:
+### 👉 Step 3: Place it in your github README.md
+```markdown
+![Codestrology](https://your-deployment-url.com/zodiac?sign=leo&theme=light)
+```
+### 👉 Step 4: Star repo 😉
 
-```md
-![My Dev Zodiac](https://your-deployment-url.com/zodiac?sign=leo)
-...
-
-## 🧪 Example Output
-
-| Sign        | Output SVG                                                                 |
-|-------------|-----------------------------------------------------------------------------|
-| ♈ Aries     | `You're sprinting through features like a RAM upgrade.`                   |
-| ♍ Virgo     | `You noticed the semicolon was misaligned — and fixed it.`                |
-| ♓ Pisces    | `You cried, then fixed it with one line. Magic.`                          |
-| ♌ Leo       | `Your README has its own logo. Leo energy.`                               |
-
+![Codestrology](https://your-deployment-url.com/zodiac?sign=leo&theme=light)
 *Message randomly rotates per request.*
 
 ## ✍️ About the Creator
