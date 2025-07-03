@@ -12,7 +12,7 @@ services:
       - key: APP_ENV
         value: production
       - key: APP_KEY
-        sync: false
+        sync: base64:gdFnbsWlejN18VFvzzfyAuBLancUk3/4ltdhusneCVI=
       - key: APP_DEBUG
         value: false
       - key: SESSION_DRIVER
