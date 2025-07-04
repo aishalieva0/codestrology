@@ -11,23 +11,25 @@ COPY --from=composer:2.5 /usr/bin/composer /usr/bin/composer
 # Set working directory
 WORKDIR /var/www/html
 
-# Copy only composer files first for better Docker cache
+# Copy only composer files
 COPY composer.json composer.lock ./
 
-# Install PHP dependencies
-RUN composer install --no-dev --optimize-autoloader
+# Install PHP dependencies (skip scripts for now)
+RUN composer install --no-dev --optimize-autoloader --no-scripts
 
-# Now copy the rest of the application
+# Copy rest of the application
 COPY . .
 
 # Set permissions
 RUN chown -R www-data:www-data /var/www/html
 
-# Generate Laravel application key (optional if you set APP_KEY manually)
+# Manually run package discovery after full app copied
+RUN php artisan package:discover --ansi
+
+# Generate app key (if not done via .env)
 RUN php artisan key:generate
 
 # Expose port
 EXPOSE 8000
 
-# Start Laravel development server
 CMD php artisan serve --host=0.0.0.0 --port=8000
