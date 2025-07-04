@@ -1,6 +1,6 @@
 # 🔮 Codestrology
 
-![Codestrology](https://your-deployment-url.com/zodiac?sign=leo)
+![Codestrology](https://codestrology.onrender.com/zodiac?sign=cancer)
 
 > Your developer zodiac, rendered in SVG — for your GitHub profile, website, or anywhere you want cosmic dev vibes.
 
@@ -37,7 +37,7 @@ Pick your sign:
 ```
 ### 👉 Step 4: Star repo 😉
 
-![Codestrology](https://your-deployment-url.com/zodiac?sign=leo&theme=light)
+![Codestrology](https://codestrology.onrender.com/zodiac?sign=cancer&theme=light)
 *Message randomly rotates per request.*
 
 ## ✍️ About the Creator
