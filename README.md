@@ -38,6 +38,7 @@ Pick your sign:
 ### 👉 Step 4: Star repo 😉
 
 ![Codestrology](https://codestrology.onrender.com/zodiac?sign=cancer&theme=light)
+  
 *Message randomly rotates per request.*
 
 ## ✍️ About the Creator
