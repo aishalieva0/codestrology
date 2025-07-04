@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="150">
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="70">
     <style>
         .title {
             fill:
                 {{ $theme === 'dark' ? '#f9a8d4' : '#be185d' }}
             ;
-            font-size: 24px;
+            font-size: 20px;
             font-family: sans-serif;
         }
 
@@ -12,7 +12,7 @@
             fill:
                 {{ $theme === 'dark' ? '#fff' : '#334155' }}
             ;
-            font-size: 16px;
+            font-size: 14px;
             font-family: sans-serif;
         }
 
@@ -25,6 +25,6 @@
         }
     </style>
     <rect width="100%" height="100%" />
-    <text x="20" y="50" class="title">{{ $emoji }} {{ ucfirst($sign) }} Dev</text>
-    <text x="20" y="90" class="message">{{ $message }}</text>
+    <text x="20" y="30" class="title">{{ $emoji }} {{ ucfirst($sign) }} Dev</text>
+    <text x="20" y="55" class="message">{{ $message }}</text>
 </svg>
