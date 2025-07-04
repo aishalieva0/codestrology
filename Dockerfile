@@ -26,9 +26,6 @@ RUN chown -R www-data:www-data /var/www/html
 # Manually run package discovery after full app copied
 RUN php artisan package:discover --ansi
 
-# Generate app key (if not done via .env)
-RUN php artisan key:generate
-
 # Expose port
 EXPOSE 8000
 
